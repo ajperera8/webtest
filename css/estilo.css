@@ -51,20 +51,22 @@ header .textos-header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /*text-align: center;*/
+    text-align: center;
     /*background: #BCB64E;*/
 }
 
 .textos-header h1{
     font-size: 30px;
     color:#91E2E5;
+    margin:0px; /* H1 trae márgenes por defecto */
+    line-height:20px /* H1 trae altura por defecto */
 }
 
 .textos-header p{
+
     font-size: 20px;
     font-weight: 300;
     color:#E4E1E1;
- /*   margin-bottom: 80px;*/
 }
 
 .contenedor,
@@ -134,6 +136,7 @@ header .textos-header{
 
 .cards{
         background: #F9E1A8;
+        padding: 80px 0;
 }
 
 .content-cards{
