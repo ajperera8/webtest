@@ -49,10 +49,9 @@ header .textos-header{
     height: 130px;
     width: 100%;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: center;   
+    flex-direction: column; /* para que ponga uno abajo del otro. Sino sería row */
     text-align: center;
-    /*background: #BCB64E;*/
 }
 
 .textos-header h1{
@@ -111,14 +110,14 @@ header .textos-header{
 }
 
 .parrafo{
-    text-align: justify;
+    text-align: justify; /* el parrafo ocupa el ancho de la columna, si le pongo center se ve feo */
     margin-bottom: 20px;
 }
 
 .cta{
     display: inline-block;
     text-decoration: none;
-    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-image: linear-gradient(45deg, #3E76DE 0%, #8DB1F9 99%, #8DB1F9 100%);
     padding: 12px 15px;
     border-radius: 8px;
     color: #fff;
@@ -127,7 +126,7 @@ header .textos-header{
 /* Info */
 
 .info{
-    background: #BB4D5C;
+    background: #A0A0F5;
     color: #fff;
 }
 
